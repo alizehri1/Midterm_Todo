@@ -1,100 +1,100 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: rgb(255, 255, 255);
 }
+
 h1 {
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 2rem; 
+    margin-bottom: 1.5rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     text-decoration: underline;
-  }
-.page{
+}
+
+.page {
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     align-items: center;
-     /* background: linear-gradient(#141e30, #243b55); */
-   
 }
-.container{
+
+.container {
     background-color: #088178;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 600px;
-  
-}
-label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-  }
-  input {
-    width: 100%;
-    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    margin-bottom: 20px;
-  }  
-  button {
+    padding: 2rem; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%; 
+    max-width: 600px;
+}
+
+label {
+    display: block;
+    margin-bottom: 1rem; 
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 2rem; 
+}
+
+button {
     background-color: #0074d9;
     color: #fff;
     border: none;
     border-radius: 4px;
-    padding: 10px 20px;
+    padding: 1rem 2rem; 
     cursor: pointer;
     font-weight: bold;
-    width: 60%;
-   /* margin-left: 100px; */
+    width: 100%;
+}
 
-  }
-  .submit-btn{
-    margin-left: 100px;
-  }
-  
-  button:hover {
+.submit-btn {
+    text-align: center; 
+}
+
+button:hover {
     background-color: #000000;
-  }
-  .list {
-    margin-top: 20px;
-    margin-right: 190px;
-  }
-  
-  table {
-    width: 150%;
+}
+
+.list {
+    margin-top: 2rem;
+}
+
+table {
+    width: 100%;
     border-collapse: collapse;
     border: 1px solid #ccc;
-    
-  }
-  
-  th, td {
+}
+
+th, td {
     border: 1px solid #ccc;
-    padding: 8px;
+    padding: 1rem;
     text-align: center;
-  }
-  
-  th {
+}
+
+th {
     background-color: #0074d9;
     color: #fff;
-  }
-  
-  /* Style the edit and delete buttons */
-  .edit-btn {
+}
+
+.edit-btn {
     background-color: #f39c12;
-    
-  }
-  
-  .del-btn {
+}
+
+.del-btn {
     background-color: #ff4136;
-  }
-  
-  /* Add some space between rows */
-  tr + tr {
-    margin-top: 8px;
-  }
+}
+
+tr + tr {
+    margin-top: 1rem;
+}
